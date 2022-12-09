@@ -354,4 +354,4 @@ automática y se procesaran las transacciones
 
 
 
-![](https://github.com/SantiagoHernandez20/App_Sena/imagenes/4.jpg)
+![](https://github.com/SantiagoHernandez20/App_Sena/imagenes/1.jpeg)
