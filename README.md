@@ -94,11 +94,14 @@ https://www.figma.com/proto/y1tBzhQnb44mvvNTli03NT/Untitled?node-id=45%3A3&scali
 SearchDelegate:
 
 La aplicación contiene un AppBar, allí se encuentra un icono de una lupa donde los usuarios pueden buscar los productos que necesiten.
+![image](https://user-images.githubusercontent.com/98421206/206737504-0b9667db-4274-477a-900c-c347860e61b2.png)
  
 Al darle click al icono nos despliega una nueva pestaña que contiene 2 iconos mas y como tal el buscador, 
 el primer icono es un arrow back (flecha para ir atrás) este icono se puede personalizar a través de  SearchDelegate.buildLeading donde se le dará su funcionamiento para regresar a la pantalla inicial
  
 El segundo icono es una “X” que nos sirve para limpiar lo que el usuario digite, la funcionalidad de este y su personalización se pueden encontrar en SearchDelegate.buildActions .
+
+![image](https://user-images.githubusercontent.com/98421206/206739598-a35fe1c2-eeb0-44dc-bc7c-4eddf8934754.png)
  
 Tenemos otra opción para mostrar consultas sugeridas para el usuario el cual se realiza con 
 SearchDelegate.buildSuggestions.
@@ -120,6 +123,7 @@ Añadir al carrito: nos agrega el producto al carrito de compras
 Ver más: Nos muestra en pantalla un modal con detalles del producto
 
 Login:
+
 En esta pantalla nos muestra el login que cuanta con dos Textfield para que el usuario digite el email y su contraseña,. En la parte inferior de los Textfield tenemos 3 diferentes opciones que nos dirigen a otras pantallas, estas opciones son:
 ¿Olvido la contraseña?
 En esta opción nos dirige a una página donde nos indica el paso a paso para restablecer la contraseña por si al usuario se le olvida la contraseña.
@@ -141,6 +145,11 @@ Esta opción nos dirige a la página de registro en caso de que el usuario no te
 - Confirmar Contraseña
 
 Luego de estos datos hay un botón llamado “Registrarse Ahora” el cual nos envía la información nueva del usuario, abajo tenemos la opción “Iniciar Sesión” que nos dirige de nuevo al apartado de Iniciar Sesión.
+
+![image](https://user-images.githubusercontent.com/98421206/206740740-ecca410c-105d-4f83-b666-19df3d01a458.png)
+
+![image](https://user-images.githubusercontent.com/98421206/206740956-f3b17b37-b444-4ac8-9268-c7975e8bd819.png)
+
 
 
 
@@ -207,6 +216,9 @@ Future<void> main() async {
 printing: ^5.9.3:
 Un complemento que permite que las aplicaciones de Flutter generen e 		impriman documentos en impresoras compatibles con Android o iOS.
 Esta librería la utilizamos para imprimir o descargar el pdf  de la compra. 
+
+![image](https://user-images.githubusercontent.com/98421206/206741481-9d00432d-8242-4bab-b12c-c6cce8d6442f.png)
+
 
  
 
@@ -291,6 +303,10 @@ import 'package:open_file/open_file.dart';
 flutter_zoom_drawer: ^3.0.3
 La librería zoom drawer, fue utilizada para darle una mejor imagen al 	drawer, como se muestra en la siguiente imagen:
 
+![image](https://user-images.githubusercontent.com/98421206/206741590-8226e74a-acda-4be8-ab0d-660627cacf8f.png)
+
+![image](https://user-images.githubusercontent.com/98421206/206741607-6df9d4d5-854b-4b3d-8788-5b97e3145180.png)
+
   
 
 
@@ -313,6 +329,8 @@ verdura, 10 en lácteos y 10 en cárnicos) las imágenes tienen un formato
 png por lo cual están de 300 de alto y 300 de ancho para que se vea de
 una mejor forma y proporción en la Card.
 
+![image](https://user-images.githubusercontent.com/98421206/206742121-77053496-2ffa-457b-835d-3da1003fa3d0.png)
+
 
 
 **Epayco**
@@ -332,16 +350,25 @@ de la web, permite guardar información de tarjetas de crédito para futuras
 compras, adaptable a todos los dispositivos, se incluyen todos los medios
 de pago.
 
+![image](https://user-images.githubusercontent.com/98421206/206742223-189db7f9-ceb0-4474-bca0-cbb7aabff5ba.png)
+
 **Stándar Chechkout**: Tiene dominios seguros es decir que certifica la
 seguridad, permite guardar información de tarjetas de crédito para
 futuras compras, multi idioma, personalización (logo, colores,
 información), todos los medios de pago incluidos.
+
+
+![image](https://user-images.githubusercontent.com/98421206/206742298-71fadf1a-dd4a-48a0-8188-e076f673dfcf.png)
+
+
 **
 Como se generan los medios de pago en prueba**
 
 ePayco le permite generar transacciones de prueba con el fin de que
 pueda validar el funcionamiento de cada medio de pago y la respuesta
 que obtiene al procesar una transacción.
+
+![image](https://user-images.githubusercontent.com/98421206/206742400-105e04c2-bfa8-49d2-9d30-f16e5a24031b.png)
 
 
 **Tarjeta de Crédito de prueba**
@@ -350,8 +377,11 @@ piden su correo electrónico, nombres, tipo de documento, luego se da clic
 en ‘Continuar’ donde se obtendrá un código de confirmación de forma
 automática y se procesaran las transacciones
 
+![image](https://user-images.githubusercontent.com/98421206/206742475-d4a9c656-4f65-4083-85bf-96ca6abc4a56.png)
 
 
 
 
-![](https://github.com/SantiagoHernandez20/App_Sena/imagenes/1.jpeg)
+
+
+
