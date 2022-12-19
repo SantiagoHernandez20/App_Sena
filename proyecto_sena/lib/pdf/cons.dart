@@ -1,0 +1,1 @@
+const kGoogleImagePath = 'images/arequipe.jpg';
