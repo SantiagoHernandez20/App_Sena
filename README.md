@@ -1,6 +1,11 @@
-# Aplicacion Tienda Sena
+# Aplicación Tienda SENA
 
-## A.D.S.O, ficha: 2558346.
+## Entidad: Centro de Biotecnología Agropecuaria
+## Ficha: 2558346
+## Programa: Análisis y Desarrollo de Software - A.D.S.O
+## Autor: William Garzón, Sebastián Tovar, Antony Rincon y Santiago Montaño
+## Fecha Creación: 22 de Noviembre del 2022 - 09 de Diciembre del 2022
+## Versión: 1.0.0
  
 La intencion de este Readme es mostrar todo lo que conlleva el desarrollo de la aplicacion, desde la maqueta hasta el producto final.
 Se planteo realizar una tienda virtual basada en la tienda de productos del CBA, el objetivo principal es que se asemeje a una tienda virtual real que contenga carrito de compras, registro y validación de usuarios en una base de datos y que genere facturación electrónica para que el cliente por medio de su dispositivo móvil pueda reclamar sus productos adquiridos.
